@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Nguyễn Đỗ Phương Trang</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>body { font-family: 'Inter', sans-serif; }</style>
+    <style>
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
+        }
+    </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen print:bg-white">
 
@@ -28,7 +31,6 @@
     </header>
 
     <main class="flex-grow pt-24 max-w-5xl w-full mx-auto px-4 md:px-6 mb-16 print:pt-0">
-        
         <section class="bg-white shadow-xs rounded-xl border border-slate-100 overflow-hidden mt-4">
             
             <div class="flex justify-end p-4 bg-slate-50 border-b border-slate-100 print:hidden">
@@ -43,9 +45,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 min-h-[750px]">
-                
                 <div class="md:col-span-1 bg-white p-8 md:p-10 border-r border-slate-100 space-y-10">
-                    
                     <div>
                         <h3 class="text-sm font-bold text-slate-900 tracking-wider uppercase border-b border-slate-900 pb-1 mb-4">INFO</h3>
                         <div class="space-y-4 text-xs">
@@ -65,33 +65,27 @@
                         <div class="space-y-4 text-xs font-medium">
                             <div>
                                 <p class="text-slate-700">HTML5 / CSS3 / JavaScript</p>
-                                <div class="w-full bg-slate-100 h-1 mt-2">
-                                    <div class="bg-slate-900 h-1 w-[85%]"></div>
-                                </div>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[85%]"></div></div>
+                            </div>
+                            <div>
+                                <p class="text-slate-700">Java OOP / Java Core</p>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[70%]"></div></div>
                             </div>
                             <div>
                                 <p class="text-slate-700">React / Next.js</p>
-                                <div class="w-full bg-slate-100 h-1 mt-2">
-                                    <div class="bg-slate-900 h-1 w-[75%]"></div>
-                                </div>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[75%]"></div></div>
                             </div>
                             <div>
                                 <p class="text-slate-700">Tailwind CSS</p>
-                                <div class="w-full bg-slate-100 h-1 mt-2">
-                                    <div class="bg-slate-900 h-1 w-[90%]"></div>
-                                </div>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[90%]"></div></div>
                             </div>
                             <div>
                                 <p class="text-slate-700">Git / GitHub</p>
-                                <div class="w-full bg-slate-100 h-1 mt-2">
-                                    <div class="bg-slate-900 h-1 w-[80%]"></div>
-                                </div>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[80%]"></div></div>
                             </div>
                             <div>
                                 <p class="text-slate-700">Responsive Web Design</p>
-                                <div class="w-full bg-slate-100 h-1 mt-2">
-                                    <div class="bg-slate-900 h-1 w-[85%]"></div>
-                                </div>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[85%]"></div></div>
                             </div>
                         </div>
                     </div>
@@ -101,28 +95,20 @@
                         <div class="space-y-4 text-xs font-medium">
                             <div>
                                 <p class="text-slate-700">Tiếng Việt (Bản xứ)</p>
-                                <div class="w-full bg-slate-100 h-1 mt-2">
-                                    <div class="bg-slate-900 h-1 w-[100%]"></div>
-                                </div>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[100%]"></div></div>
                             </div>
                             <div>
                                 <p class="text-slate-700">Tiếng Anh (Đọc hiểu tài liệu)</p>
-                                <div class="w-full bg-slate-100 h-1 mt-2">
-                                    <div class="bg-slate-900 h-1 w-[60%]"></div>
-                                </div>
+                                <div class="w-full bg-slate-100 h-1 mt-2"><div class="bg-slate-900 h-1 w-[60%]"></div></div>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="md:col-span-2 p-8 md:p-10 space-y-10">
-                    
                     <div>
                         <h3 class="text-sm font-bold text-slate-900 tracking-wider uppercase border-b border-slate-900 pb-1 mb-4">PROFILE</h3>
-                        <p class="text-slate-600 text-xs leading-relaxed text-justify">
-                            Là sinh viên ngành Công nghệ thông tin chuyên định hướng Front-end Developer. Đam mê xây dựng giao diện ứng dụng web mượt mà, tối ưu hóa trải nghiệm người dùng và chuyển đổi mượt mà các bản thiết kế từ Figma thành mã nguồn sạch. Tinh thần tự học cao, tư duy logic tốt và luôn nghiêm túc trong quá trình kiểm soát mã nguồn bằng Git/GitHub.
-                        </p>
+                        <p class="text-slate-600 text-xs leading-relaxed text-justify">Là sinh viên ngành Công nghệ thông tin chuyên định hướng Front-end Developer. Có nền tảng tư duy lập trình vững chắc từ Java core kết hợp cùng đam mê xây dựng giao diện ứng dụng mượt mà. Tinh thần tự học cao, tư duy logic tốt và luôn nghiêm túc trong quá trình kiểm soát mã nguồn bằng Git/GitHub.</p>
                     </div>
 
                     <div>
@@ -137,7 +123,7 @@
                                 <ul class="list-disc list-inside text-xs text-slate-600 pt-1.5 space-y-1 pl-1">
                                     <li>Phân tích yêu cầu và thiết kế cấu trúc giao diện trang đơn chuẩn UI/UX.</li>
                                     <li>Sử dụng HTML5 cốt lõi kết hợp sức mạnh tối ưu của thư viện Tailwind CSS.</li>
-                                    <li>Quản lý toàn bộ tiến trình code chặt chẽ bằng các commit rõ ràng và triển khai (deploy) sản phẩm trực tuyến lên hệ thống GitHub Pages.</li>
+                                    <li>Quản lý toàn bộ tiến trình code bằng các commit rõ ràng và triển khai lên hệ thống GitHub Pages.</li>
                                 </ul>
                             </div>
 
@@ -149,8 +135,21 @@
                                 <p class="text-[11px] text-slate-500 italic">Front-end Developer (Dự án thực hành)</p>
                                 <ul class="list-disc list-inside text-xs text-slate-600 pt-1.5 space-y-1 pl-1">
                                     <li>Xây dựng cấu trúc component bằng hệ sinh thái React, Next.js và TypeScript interface.</li>
-                                    <li>Tích hợp các bộ điều khiển logic tăng giảm số lượng sản phẩm trong giỏ hàng mượt mà bằng React Hook (useState, useEffect).</li>
-                                    <li>Xử lý hoàn hảo giao diện Responsive hiển thị tối ưu trên cả thiết bị di động và máy tính.</li>
+                                    <li>Tích hợp bộ điều khiển logic tăng giảm số lượng sản phẩm trong giỏ hàng bằng React Hook.</li>
+                                    <li>Xử lý giao diện Responsive hiển thị tối ưu trên cả thiết bị di động và máy tính.</li>
+                                </ul>
+                            </div>
+
+                            <div class="space-y-1">
+                                <div class="flex justify-between items-baseline">
+                                    <h4 class="font-bold text-slate-900 text-xs">Dự án Ứng Dụng Quản Lý (Java Console Application)</h4>
+                                    <span class="text-[10px] text-slate-500 font-medium">Dự án học tập</span>
+                                </div>
+                                <p class="text-[11px] text-slate-500 italic">Backend Developer (Dự án học tập)</p>
+                                <ul class="list-disc list-inside text-xs text-slate-600 pt-1.5 space-y-1 pl-1">
+                                    <li>Áp dụng tư duy lập trình hướng đối tượng (OOP) để thiết kế cấu trúc các lớp (Class) và đối tượng.</li>
+                                    <li>Xử lý các chức năng chính bao gồm Thêm, Sửa, Xóa và Tìm kiếm dữ liệu mượt mà.</li>
+                                    <li>Rèn luyện tư duy cấu trúc dữ liệu, thuật toán cốt lõi và tối ưu hóa hiệu suất xử lý logic hệ thống.</li>
                                 </ul>
                             </div>
                         </div>
@@ -167,9 +166,7 @@
                             <p class="text-[11px] text-slate-500 pt-1">Tích lũy kiến thức nền tảng vững chắc về cấu trúc dữ liệu, thuật toán và các framework lập trình Front-end hiện đại.</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
     </main>
