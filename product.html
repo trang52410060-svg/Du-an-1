@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product - Nguyễn Đỗ Phương Trang</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-sm z-50 border-b border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="font-bold text-slate-900 tracking-wider text-base uppercase">PT.Portfolio</a>
+            <nav class="hidden md:flex space-x-8 text-xs font-semibold uppercase tracking-wider text-slate-600">
+                <a href="index.html" class="hover:text-indigo-600 transition-colors">About Us</a>
+                <a href="cv.html" class="hover:text-indigo-600 transition-colors">CV</a>
+                <a href="product.html" class="text-indigo-600 border-b-2 border-indigo-600 pb-1">My Product</a>
+                <a href="contact.html" class="hover:text-indigo-600 transition-colors">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="https://github.com/trang52410060-svg" target="_blank" class="text-slate-600 hover:text-slate-900 text-lg transition-colors"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="text-slate-600 hover:text-indigo-600 text-lg transition-colors"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-28 max-w-5xl w-full mx-auto px-4 md:px-6 mb-16">
+        <section class="bg-white rounded-xl shadow-xs border border-slate-100 p-8 md:p-12">
+            <div class="border-b border-slate-200 pb-4 mb-6">
+                <h3 class="text-xl font-bold text-slate-900 uppercase tracking-wide">My Product</h3>
+                <p class="text-xs text-slate-500 mt-1">Các sản phẩm lập trình nổi bật thực hiện trong quá trình học tập</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="border border-slate-200 rounded-lg overflow-hidden group hover:shadow-xs transition-shadow">
+                    <div class="bg-slate-50 h-40 flex items-center justify-center text-slate-400 border-b border-slate-100">
+                        <i class="fas fa-shopping-bag text-3xl group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <div class="p-4 space-y-2">
+                        <h4 class="font-bold text-slate-900 text-sm">Clothes Page Component</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Ứng dụng giao diện danh mục quần áo thời trang cao cấp, xử lý tính toán tăng giảm số lượng giỏ hàng mượt mà bằng React state.</p>
+                        <div class="flex gap-1.5 pt-1">
+                            <span class="bg-slate-100 px-2 py-0.5 rounded text-[10px] font-semibold text-slate-600">Next.js</span>
+                            <span class="bg-slate-100 px-2 py-0.5 rounded text-[10px] font-semibold text-slate-600">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-slate-200 rounded-lg overflow-hidden group hover:shadow-xs transition-shadow">
+                    <div class="bg-slate-50 h-40 flex items-center justify-center text-slate-400 border-b border-slate-100">
+                        <i class="fas fa-layer-group text-3xl group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <div class="p-4 space-y-2">
+                        <h4 class="font-bold text-slate-900 text-sm">Personal Portfolio Website</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Hệ thống trang thông tin lý lịch cá nhân trực tuyến tích hợp đầy đủ cấu trúc chuyển đổi trang mượt mà phục vụ nhà tuyển dụng.</p>
+                        <div class="flex gap-1.5 pt-1">
+                            <span class="bg-slate-100 px-2 py-0.5 rounded text-[10px] font-semibold text-slate-600">HTML5</span>
+                            <span class="bg-slate-100 px-2 py-0.5 rounded text-[10px] font-semibold text-slate-600">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-500 py-6 text-center text-xs space-y-3 mt-auto">
+        <div class="flex justify-center space-x-6 text-lg">
+            <a href="https://github.com/trang52410060-svg" target="_blank" class="hover:text-white transition-colors"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank" class="hover:text-white transition-colors"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="text-[11px] tracking-wide">&copy; 2026 Nguyễn Đỗ Phương Trang. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

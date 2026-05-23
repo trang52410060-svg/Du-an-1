@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nguyễn Đỗ Phương Trang</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-sm z-50 border-b border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="font-bold text-slate-900 tracking-wider text-base uppercase">PT.Portfolio</a>
+            <nav class="hidden md:flex space-x-8 text-xs font-semibold uppercase tracking-wider text-slate-600">
+                <a href="index.html" class="hover:text-indigo-600 transition-colors">About Us</a>
+                <a href="cv.html" class="hover:text-indigo-600 transition-colors">CV</a>
+                <a href="product.html" class="hover:text-indigo-600 transition-colors">My Product</a>
+                <a href="contact.html" class="text-indigo-600 border-b-2 border-indigo-600 pb-1">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="https://github.com/trang52410060-svg" target="_blank" class="text-slate-600 hover:text-slate-900 text-lg transition-colors"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="text-slate-600 hover:text-indigo-600 text-lg transition-colors"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow pt-28 max-w-5xl w-full mx-auto px-4 md:px-6 mb-16">
+        <section class="bg-white rounded-xl shadow-xs border border-slate-100 p-8 md:p-12">
+            <div class="border-b border-slate-200 pb-4 mb-6">
+                <h3 class="text-xl font-bold text-slate-900 uppercase tracking-wide">Contact</h3>
+                <p class="text-xs text-slate-500 mt-1">Kết nối thông tin phục vụ công việc và hợp tác dự án</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="space-y-4 text-xs">
+                    <p class="text-slate-600 leading-relaxed text-justify">Bạn đang tìm kiếm một cộng tác viên Front-end tiềm năng hoặc muốn trao đổi về các dự án công nghệ? Hãy liên hệ ngay với mình qua biểu mẫu hoặc thông tin trực tiếp bên dưới.</p>
+                    <div class="space-y-2.5 pt-2 text-sm">
+                        <p class="text-slate-700"><i class="fas fa-phone w-6 text-indigo-600"></i> 0796990203</p>
+                        <p class="text-slate-700"><i class="fas fa-envelope w-6 text-indigo-600"></i> trang52410060@caodangvietmy.edu.vn</p>
+                    </div>
+                </div>
+                <form class="space-y-3 text-xs" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã gửi tin nhắn liên hệ!');">
+                    <div>
+                        <label class="block text-[10px] font-bold text-slate-700 uppercase mb-1 tracking-wider">Họ và Tên</label>
+                        <input type="text" required class="w-full border border-slate-200 rounded px-3 py-2 focus:outline-none focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-bold text-slate-700 uppercase mb-1 tracking-wider">Tin nhắn</label>
+                        <textarea rows="3" required class="w-full border border-slate-200 rounded px-3 py-2 focus:outline-none focus:border-indigo-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-medium py-2 rounded text-xs uppercase tracking-wider transition-colors cursor-pointer">Gửi liên hệ</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-500 py-6 text-center text-xs space-y-3 mt-auto">
+        <div class="flex justify-center space-x-6 text-lg">
+            <a href="https://github.com/trang52410060-svg" target="_blank" class="hover:text-white transition-colors"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank" class="hover:text-white transition-colors"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="text-[11px] tracking-wide">&copy; 2026 Nguyễn Đỗ Phương Trang. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
