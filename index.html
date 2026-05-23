@@ -3,163 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Nguyễn Đỗ Phương Trang</title>
+    <title>About Us - Nguyễn Đỗ Phương Trang</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
-<body class="bg-slate-100 text-slate-800 antialiased py-10 print:py-0 print:bg-white">
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
 
-    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-sm overflow-hidden print:shadow-none print:my-0 my-4">
-        
-        <div class="flex justify-end p-4 bg-slate-50 border-b border-slate-100 print:hidden">
-            <button onclick="window.print()" class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-medium rounded text-sm cursor-pointer transition-colors">
-                Xuất file PDF / In CV
-            </button>
-        </div>
-
-        <div class="px-10 pt-12 pb-8 border-b border-slate-200">
-            <h1 class="text-4xl font-extrabold tracking-wide text-slate-900 uppercase">NGUYỄN ĐỖ PHƯƠNG TRANG</h1>
-            <p class="text-lg tracking-wider text-slate-550 font-medium mt-2 uppercase">Front-End Developer</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 min-h-[800px]">
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-sm z-50 border-b border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="font-bold text-slate-900 tracking-wider text-base uppercase">PT.Portfolio</a>
             
-            <div class="md:col-span-1 bg-white p-10 border-r border-slate-200 space-y-10">
-                
-                <div>
-                    <h3 class="text-lg font-bold text-slate-900 tracking-wider uppercase border-b-2 border-slate-900 pb-1 mb-4">INFO</h3>
-                    <div class="space-y-4 text-sm">
-                        <div>
-                            <p class="font-bold text-slate-900 uppercase tracking-wide text-xs">PHONE</p>
-                            <p class="text-slate-600 mt-1">0796990203</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-slate-900 uppercase tracking-wide text-xs">EMAIL</p>
-                            <p class="text-slate-600 mt-1 break-all">trang52410060@caodangvietmy.edu.vn</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold text-slate-900 tracking-wider uppercase border-b-2 border-slate-900 pb-1 mb-4">SKILLS</h3>
-                    <div class="space-y-4 text-sm">
-                        <div>
-                            <p class="text-slate-700 font-medium">HTML5 / CSS3 / JavaScript</p>
-                            <div class="w-full bg-slate-200 h-1.5 mt-1.5">
-                                <div class="bg-slate-900 h-1.5 w-[85%]"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-slate-700 font-medium">React / Next.js</p>
-                            <div class="w-full bg-slate-200 h-1.5 mt-1.5">
-                                <div class="bg-slate-900 h-1.5 w-[75%]"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-slate-700 font-medium">Tailwind CSS</p>
-                            <div class="w-full bg-slate-200 h-1.5 mt-1.5">
-                                <div class="bg-slate-900 h-1.5 w-[90%]"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-slate-700 font-medium">Git / GitHub</p>
-                            <div class="w-full bg-slate-200 h-1.5 mt-1.5">
-                                <div class="bg-slate-900 h-1.5 w-[80%]"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-slate-700 font-medium">Responsive Web Design</p>
-                            <div class="w-full bg-slate-200 h-1.5 mt-1.5">
-                                <div class="bg-slate-900 h-1.5 w-[85%]"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold text-slate-900 tracking-wider uppercase border-b-2 border-slate-900 pb-1 mb-4">LANGUAGES</h3>
-                    <div class="space-y-4 text-sm">
-                        <div>
-                            <p class="text-slate-700 font-medium">Tiếng Việt (Bản xứ)</p>
-                            <div class="w-full bg-slate-200 h-1.5 mt-1.5">
-                                <div class="bg-slate-900 h-1.5 w-[100%]"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-slate-700 font-medium">Tiếng Anh (Đọc hiểu tài liệu)</p>
-                            <div class="w-full bg-slate-200 h-1.5 mt-1.5">
-                                <div class="bg-slate-900 h-1.5 w-[60%]"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            <nav class="hidden md:flex space-x-8 text-xs font-semibold uppercase tracking-wider text-slate-600">
+                <a href="index.html" class="text-indigo-600 border-b-2 border-indigo-600 pb-1">About Us</a>
+                <a href="cv.html" class="hover:text-indigo-600 transition-colors">CV</a>
+                <a href="product.html" class="hover:text-indigo-600 transition-colors">My Product</a>
+                <a href="contact.html" class="hover:text-indigo-600 transition-colors">Contact</a>
+            </nav>
+            
+            <div class="flex items-center space-x-4">
+                <a href="https://github.com/trang52410060-svg" target="_blank" class="text-slate-600 hover:text-slate-900 text-lg transition-colors"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="text-slate-600 hover:text-indigo-600 text-lg transition-colors"><i class="fab fa-facebook"></i></a>
             </div>
-
-            <div class="md:col-span-2 p-10 space-y-10">
-                
-                <div>
-                    <h3 class="text-lg font-bold text-slate-900 tracking-wider uppercase border-b-2 border-slate-900 pb-1 mb-4">PROFILE</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed text-justify">
-                        Là sinh viên ngành Công nghệ thông tin chuyên định hướng Front-end Developer. Đam mê xây dựng giao diện ứng dụng web mượt mà, tối ưu hóa trải nghiệm người dùng và chuyển đổi mượt mà các bản thiết kế từ Figma thành mã nguồn sạch. Tinh thần tự học cao, tư duy logic tốt và luôn nghiêm túc trong quá trình kiểm soát mã nguồn bằng Git/GitHub.
-                    </p>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold text-slate-900 tracking-wider uppercase border-b-2 border-slate-900 pb-1 mb-4">PROJECTS & EXPERIENCE</h3>
-                    <div class="space-y-6">
-                        
-                        <div>
-                            <div class="flex justify-between items-baseline">
-                                <h4 class="font-bold text-slate-800 text-base">Dự án Portfolio Cá Nhân (Web giới thiệu bản thân)</h4>
-                                <span class="text-xs text-slate-500 font-medium">05/2026 - Hiện tại</span>
-                            </div>
-                            <p class="text-xs text-indigo-650 italic font-medium mt-0.5">Front-end Developer (Dự án cá nhân)</p>
-                            <ul class="list-disc list-inside text-sm text-slate-600 mt-2 space-y-1 pl-1">
-                                <li>Phân tích yêu cầu và thiết kế cấu trúc giao diện trang đơn chuẩn UI/UX.</li>
-                                <li>Sử dụng HTML5 cốt lõi kết hợp sức mạnh tối ưu của thư viện Tailwind CSS.</li>
-                                <li>Quản lý toàn bộ tiến trình code chặt chẽ bằng các commit rõ ràng và triển khai (deploy) sản phẩm trực tuyến lên hệ thống GitHub Pages.</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <div class="flex justify-between items-baseline">
-                                <h4 class="font-bold text-slate-800 text-base">Dự án Giao Diện Cửa Hàng Thời Trang (Clothes Catalog)</h4>
-                                <span class="text-xs text-slate-500 font-medium">04/2026</span>
-                            </div>
-                            <p class="text-xs text-indigo-650 italic font-medium mt-0.5">Front-end Developer (Dự án thực hành)</p>
-                            <ul class="list-disc list-inside text-sm text-slate-600 mt-2 space-y-1 pl-1">
-                                <li>Xây dựng cấu trúc component bằng hệ sinh thái React, Next.js và TypeScript interface.</li>
-                                <li>Tích hợp các bộ điều khiển logic tăng giảm số lượng sản phẩm trong giỏ hàng mượt mà bằng React Hook (useState, useEffect).</li>
-                                <li>Xử lý hoàn hảo giao diện Responsive hiển thị tối ưu trên cả thiết bị di động và máy tính.</li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-lg font-bold text-slate-900 tracking-wider uppercase border-b-2 border-slate-900 pb-1 mb-4">EDUCATION</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <div class="flex justify-between items-baseline">
-                                <h4 class="font-bold text-slate-800 text-base">Trường Cao đẳng Việt Mỹ (American Polytechnic College)</h4>
-                                <span class="text-xs text-slate-500 font-medium">2024 - Hiện tại</span>
-                            </div>
-                            <p class="text-sm text-slate-600 mt-1">Chuyên ngành: Công nghệ thông tin / Lập trình Web</p>
-                            <p class="text-xs text-slate-500 mt-0.5">Tích lũy kiến thức nền tảng vững chắc về cấu trúc dữ liệu, thuật toán và các framework lập trình Front-end hiện đại.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
+    </header>
 
-    </div>
+    <main class="flex-grow pt-28 max-w-5xl w-full mx-auto px-4 md:px-6 mb-16">
+        <section class="bg-white rounded-xl shadow-xs border border-slate-100 p-8 md:p-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-2 space-y-4">
+                    <span class="text-[10px] font-bold tracking-widest text-indigo-600 uppercase bg-indigo-50 px-2.5 py-1 rounded-sm">Front-End Developer</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Nguyễn Đỗ Phương Trang</h2>
+                    <p class="text-slate-500 font-medium text-sm">Sinh viên ngành Công nghệ thông tin - Trường Cao đẳng Việt Mỹ</p>
+                    <p class="text-slate-600 leading-relaxed text-justify text-sm">
+                        Chào mừng thầy cô đến với Portfolio dự án của mình. Mình là một lập trình viên Front-end đang trong hành trình học hỏi và phát triển. Là một người điềm tĩnh và thích nghiên cứu sâu, mình yêu thích việc tối ưu hóa cấu trúc mã nguồn, tinh chỉnh giao diện responsive hoạt động hoàn hảo trên mọi thiết bị. Định hướng của mình là làm chủ hệ sinh thái React, Next.js và Tailwind CSS để xây dựng những sản phẩm tối ưu nhất.
+                    </p>
+                    <div class="pt-2">
+                        <a href="cv.html" class="inline-block px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-medium rounded text-xs uppercase tracking-wider transition-colors">Xem chi tiết CV của mình</a>
+                    </div>
+                </div>
+                <div class="md:col-span-1 flex justify-center">
+                    <div class="w-44 h-44 rounded-full bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-400 text-4xl font-bold shadow-xs">
+                        <i class="far fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-500 py-6 text-center text-xs space-y-3 mt-auto">
+        <div class="flex justify-center space-x-6 text-lg">
+            <a href="https://github.com/trang52410060-svg" target="_blank" class="hover:text-white transition-colors"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank" class="hover:text-white transition-colors"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="text-[11px] tracking-wide">&copy; 2026 Nguyễn Đỗ Phương Trang. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
