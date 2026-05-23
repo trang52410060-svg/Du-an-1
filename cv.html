@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Nguyễn Đỗ Phương Trang</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         * {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
@@ -30,8 +30,9 @@
         <section class="bg-white shadow-xs rounded-xl border border-slate-100 overflow-hidden mt-4">
             
             <div class="flex justify-end p-4 bg-slate-50 border-b border-slate-100 print:hidden">
-                <button onclick="window.print()" class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-medium rounded text-xs uppercase tracking-wider cursor-pointer transition-colors">
-                    <i class="fas fa-print mr-2"></i>Xuất file PDF / In CV
+                <button onclick="window.print()" class="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-medium rounded text-xs uppercase tracking-wider flex items-center space-x-1.5 cursor-pointer transition-colors">
+                    <i data-lucide="printer" class="w-3.5 h-3.5"></i>
+                    <span>Xuất file PDF / In CV</span>
                 </button>
             </div>
 
@@ -46,14 +47,14 @@
                         <h3 class="text-sm font-bold text-slate-900 tracking-wider uppercase border-b border-slate-900 pb-1 mb-4">INFO</h3>
                         <div class="space-y-4 text-xs">
                             <div class="flex items-start space-x-3">
-                                <i class="fas fa-phone text-slate-700 mt-0.5"></i>
+                                <i data-lucide="phone" class="w-3.5 h-3.5 text-slate-700 mt-0.5"></i>
                                 <div>
                                     <p class="font-bold text-slate-900 uppercase tracking-wider text-[10px]">PHONE</p>
                                     <p class="text-slate-600 mt-0.5">0796990203</p>
                                 </div>
                             </div>
                             <div class="flex items-start space-x-3">
-                                <i class="fas fa-envelope text-slate-700 mt-0.5"></i>
+                                <i data-lucide="mail" class="w-3.5 h-3.5 text-slate-700 mt-0.5"></i>
                                 <div>
                                     <p class="font-bold text-slate-900 uppercase tracking-wider text-[10px]">EMAIL</p>
                                     <p class="text-slate-600 mt-0.5 break-all">trang52410060@caodangvietmy.edu.vn</p>
@@ -181,5 +182,6 @@
         <p class="text-[11px] tracking-wide">&copy; 2026 Nguyễn Đỗ Phương Trang. All rights reserved.</p>
     </footer>
 
+    <script>lucide.createIcons();</script>
 </body>
 </html>
